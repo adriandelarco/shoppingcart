@@ -70,8 +70,6 @@ class Fruit < Item
   		final_price = @price  
 	    if $day > 5 
 	      	final_price = final_price * 0.9
-	    else
-	    	final_price = final_price # MIRAR SI HACE FALTA luego
 	    end
   	final_price
   	end
